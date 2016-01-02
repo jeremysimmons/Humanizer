@@ -10,7 +10,7 @@ obj/
 *ncrunch*
 *crunch*.local.xml
 *.cache
-src/packages/*
+**/packages/*
 PackageBuild/*
 Build/*
 Release/*
@@ -19,3 +19,8 @@ src/Humanizer.Tests/ApiApprover/PublicApiApprovalTest.approve_public_api.receive
 src/TestResults/*
 # Roslyn's metadata directory
 *.sln.ide/
+.vs/
+*.nuget.targets
+*.nuget.props
+project.lock.json
+*.project.lock.json
